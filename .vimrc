@@ -261,4 +261,4 @@ au FileType html vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
 
 au FileType fortran set noexpandtab
 
-au FileType yaml setlocal ts=4 sts=4 sw=4 expandtab
+au FileType yaml setlocal ts=2 sts=2 sw=2 expandtab

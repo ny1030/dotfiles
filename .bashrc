@@ -52,6 +52,7 @@ linux*)
 ;;
 esac
 
+alias find="gfind"
 
 #peco setting (Ctrl-R)
 export HISTCONTROL="ignoredups"
