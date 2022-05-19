@@ -103,5 +103,7 @@ export PS1="${CYAN}[\t]${RESET}\n${isssh} \u@\H: ${CYAN}\w${RESET} ${gitstatus} 
 source ~/.git-completion.bash
 
 alias vi=vim
+alias python=python3
+
 
 #export PS1='\[\e[1;32m\]\W $(__git_ps1 "(%s)")\[\e[32m\] \% '
