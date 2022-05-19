@@ -52,7 +52,6 @@ linux*)
 ;;
 esac
 
-alias find="gfind"
 
 #peco setting (Ctrl-R)
 export HISTCONTROL="ignoredups"
@@ -105,6 +104,6 @@ source ~/.git-completion.bash
 
 alias vi=vim
 alias python=python3
-
+alias pip=pip3
 
 #export PS1='\[\e[1;32m\]\W $(__git_ps1 "(%s)")\[\e[32m\] \% '
