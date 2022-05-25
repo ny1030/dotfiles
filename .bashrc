@@ -1,5 +1,8 @@
+export PATH="$PATH:~/Applications/flutter/bin"
+eval $(/opt/homebrew/bin/brew shellenv)
 export GOPATH=/opt/homebrew/bin/go
 export PATH=/opt/homebrew/bin:$GOPATH/bin:$PATH
+export HISTFILE=~/.bash_history
 
 case $- in
     *i*) ;;
